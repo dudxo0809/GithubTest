@@ -923,3 +923,140 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.10.31-11.54.55:533][645]SourceControl: [main efe0d4f] cube 커밋했습니다.
 [2022.10.31-11.54.55:585][646]AssetCheck: New page: 에셋 저장:  StaticMeshActor_UAID_2CF05D3485D1434501_1643830815
 [2022.10.31-11.54.55:585][646]LogContentValidation: Display: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_2CF05D3485D1434501_1643830815 유효성 검사 중
+[2022.10.31-12.01.21:779][240]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2022.10.31-12.01.21:785][240]LogWorldPartition: Display: GenerateStreaming started...
+[2022.10.31-12.01.21:785][240]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.10.31-12.01.21:785][240]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.10.31-12.01.21:785][240]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.10.31-12.01.21:785][240]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.10.31-12.01.21:785][240]LogWorldPartition: Display: GetPartitionedActors took 46 us
+[2022.10.31-12.01.21:785][240]LogWorldPartition: Display: GenerateStreaming took 253 us
+[2022.10.31-12.01.21:785][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.31-12.01.21:786][240]PIE: New page: PIE 세션: ThirdPersonMap (2022. 11. 1. 오전 6:01:21)
+[2022.10.31-12.01.21:786][240]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.10.31-12.01.21:788][240]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.10.31-12.01.21:788][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003737s)
+[2022.10.31-12.01.21:788][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003785s)
+[2022.10.31-12.01.21:789][240]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.31-12.01.21:789][240]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.10.31-12.01.21:789][240]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.10.31-12.01.21:789][240]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.10.31-12.01.21:790][240]LogWorldPartition: Display: WorldPartition initialize took 959 us
+[2022.10.31-12.01.21:790][240]LogPlayLevel: PIE: World Init took: (0.001912s)
+[2022.10.31-12.01.21:796][240]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.10.31-12.01.21:804][240]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.10.31-12.01.21:804][240]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.31-12.01.21:804][240]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.31-12.01.21:804][240]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.31-12.01.21:804][240]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.31-12.01.21:804][240]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.31-12.01.21:804][240]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.31-12.01.21:804][240]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.31-12.01.21:804][240]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.31-12.01.21:804][240]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.31-12.01.21:804][240]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.31-12.01.21:804][240]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.31-12.01.21:806][240]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.31-12.01.21:870][240]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2022.10.31-12.01.21:870][240]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.31-12.01.21:870][240]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.31-12.01.21:870][240]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.31-12.01.21:871][240]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2022.10.31-12.01.21:871][240]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2022.10.31-12.01.21:873][240]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2022.10.31-12.01.21:873][240]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2022.10.31-12.01.21:873][240]LogInit: FAudioDevice initialized.
+[2022.10.31-12.01.21:873][240]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2022.10.31-12.01.21:886][240]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.10.31-12.01.21:888][240]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.10.31-21.01.21
+[2022.10.31-12.01.21:888][240]LogWorld: Bringing up level for play took: 0.001335
+[2022.10.31-12.01.21:890][240]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2022.10.31-12.01.21:892][240]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.10.31-12.01.21:892][240]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.10.31-12.01.21:892][240]LogTemp: Display: Hi
+[2022.10.31-12.01.21:893][240]PIE: 서버가 로그인했습니다.
+[2022.10.31-12.01.21:893][240]PIE: 에디터에서 플레이 총 시작 시간 0.11초입니다.
+[2022.10.31-12.01.25:762][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.31-12.01.25:762][663]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.10.31-12.01.25:762][663]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.31-12.01.25:762][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.31-12.01.25:773][663]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.31-12.01.25:776][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.31-12.01.25:781][663]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.31-12.01.25:781][663]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.10.31-12.01.25:783][663]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.10.31-12.01.25:786][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.31-12.01.25:788][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.10.31-12.01.25:851][664]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2022.10.31-12.21.02:127][923]SourceControl: fatal: D:/UE_5.0/Engine/Content: 'D:/UE_5.0/Engine/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:127][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Bridge/Content: 'D:/UE_5.0/Engine/Plugins/Bridge/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:127][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/2D/Paper2D/Content: 'D:/UE_5.0/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:127][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/UE_5.0/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:127][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/GeometryMode/Content: 'D:/UE_5.0/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:127][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'D:/UE_5.0/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:127][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/UE_5.0/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/UE_5.0/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/ControlRig/Content: 'D:/UE_5.0/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/ControlRigSpline/Content: 'D:/UE_5.0/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/IKRig/Content: 'D:/UE_5.0/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/FX/Niagara/Content: 'D:/UE_5.0/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Media/MediaCompositing/Content: 'D:/UE_5.0/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/FullBodyIK/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/GeometryFlow/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/MeshLODToolset/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/MovieScene/SequencerScripting/Content: 'D:/UE_5.0/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/GeometryProcessing/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/HairStrands/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/HairStrands/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/ResonanceAudio/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:128][923]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/Synthesis/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.02:207][923]EditorErrors: Warning: 체크인 대상 에셋이 없습니다!
+[2022.10.31-12.21.04:873][120]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/1B/V0O1DNDJVZRHKV384BX0PV
+[2022.10.31-12.21.04:873][120]LogSavePackage: Moving '../../../Projects/GuthubTest/Saved/V0O1DNDJVZRHKV384BX0PV9C4EE83A426EFEA39A1DC3B6F47B4E94.tmp' to '../../../Projects/GuthubTest/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/1B/V0O1DNDJVZRHKV384BX0PV.uasset'
+[2022.10.31-12.21.04:891][120]AssetCheck: New page: 에셋 저장:  StaticMeshActor_UAID_2CF05D3485D1434501_1643830815
+[2022.10.31-12.21.04:891][120]LogContentValidation: Display: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_2CF05D3485D1434501_1643830815 유효성 검사 중
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Content: 'D:/UE_5.0/Engine/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Bridge/Content: 'D:/UE_5.0/Engine/Plugins/Bridge/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/2D/Paper2D/Content: 'D:/UE_5.0/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/UE_5.0/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/GeometryMode/Content: 'D:/UE_5.0/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'D:/UE_5.0/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/UE_5.0/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/UE_5.0/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/ControlRig/Content: 'D:/UE_5.0/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/ControlRigSpline/Content: 'D:/UE_5.0/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/IKRig/Content: 'D:/UE_5.0/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/FX/Niagara/Content: 'D:/UE_5.0/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Media/MediaCompositing/Content: 'D:/UE_5.0/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/FullBodyIK/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/GeometryFlow/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/MeshLODToolset/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/MovieScene/SequencerScripting/Content: 'D:/UE_5.0/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/GeometryProcessing/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/HairStrands/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/HairStrands/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/ResonanceAudio/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:533][507]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/Synthesis/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'D:/UE_5.0/Projects/GuthubTest'
+[2022.10.31-12.21.09:839][507]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/1B/V0O1DNDJVZRHKV384BX0PV
+[2022.10.31-12.21.09:840][507]LogSavePackage: Moving '../../../Projects/GuthubTest/Saved/V0O1DNDJVZRHKV384BX0PVE105D5EA4B3B06743E987F93F32A1717.tmp' to '../../../Projects/GuthubTest/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/1B/V0O1DNDJVZRHKV384BX0PV.uasset'
+[2022.10.31-12.21.14:748][507]LogSlate: Window '파일 제출' being destroyed
+[2022.10.31-12.21.15:428][507]LogSourceControl: commit successful: [KYT a064524] asd
+[2022.10.31-12.21.15:515][507]SourceControl: [KYT a064524] asd
+[2022.10.31-12.21.15:515][507]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2022.10.31-12.21.15:563][507]SourceControl: [KYT a064524] asd 커밋했습니다.
+[2022.10.31-12.21.15:616][508]AssetCheck: New page: 에셋 저장:  StaticMeshActor_UAID_2CF05D3485D1434501_1643830815
+[2022.10.31-12.21.15:616][508]LogContentValidation: Display: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_2CF05D3485D1434501_1643830815 유효성 검사 중
