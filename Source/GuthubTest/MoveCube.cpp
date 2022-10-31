@@ -21,6 +21,7 @@ void UMoveCube::BeginPlay()
 
 	// ...
 	UE_LOG(LogTemp, Display, TEXT("Hi"));
+	UE_LOG(LogTemp, Display, TEXT("Hello world"));
 	
 }
 
